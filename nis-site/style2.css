@@ -1,0 +1,199 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 12px;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #27374D;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background: #265073;
+    color: #fff;
+    padding: 1px 0;
+    font-size: 12px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+#banner {
+    background: #9DB2BF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#about,
+#programs,
+#faculty,
+#news {
+    padding: 20px 0;
+}
+
+footer {
+    background: #27374D;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+.news-item {
+    margin-bottom: 20px;
+}
+
+.news-item h3 {
+    margin-top: 0;
+}
+
+
+/* Общие стили */
+body {
+
+  background-color: #7a99ac;
+    margin: 0;
+    padding: 0;
+
+  }
+  
+  /* Контейнер, в котором содержится контент и кнопка */
+  .container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px; /* пример максимальной ширины контейнера */
+    margin: 0 auto;
+    padding-right: 50px; /* Чтобы сделать место для кнопки справа */
+  }
+  
+  /* Стили для кнопки регистрации */
+  .registration-button {
+    position: absolute;
+    margin-top: 45px;
+    top: 14px; /* Чуть выше относительно верхнего края */
+    right: 10%;
+    padding: 2px 6px; /* Чуть меньший размер */
+    font-size: 11px; /* Чуть меньший размер шрифта */
+    background-color: white;/* цвет кнопки */
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* цвет кнопки при навидении крусора */
+  .registration-button:hover {
+    background-color: #2D9596;
+  }
+  
+
+
+
+
+  
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.image {
+    display: flex;
+  justify-content: space-around;
+}
+
+.image>span {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image>span>*:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+/* цвет кнопак */
+.btn {
+    color: #ECF4D6;
+}
+
+
+.abc {
+  margin-top: -23px;
+  display: flex;
+  margin-left: 760px;
+  margin-bottom: 20px;
+}
+
+img {
+  margin-right: 20px;
+}
+
+.image-container img {
+  float: left;
+  margin-right: 10px; /* Optional: Add some spacing between image and text */
+  
+}
+.image-container p {
+    font-size: 16px; /* Задайте желаемый размер в пикселях */
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+}
+
+.lesson p{
+  font-size: 220%;
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.lesson {
+	color: #000;
+	padding-left: 10px;
+}
+.lesson span {
+	display: inline;
+	background-color: rgba(0, 0, 0, 0.5);
+	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 10px 0 0 rgba(0, 0, 0, 0.5);
+	padding: 0 10px 0 0;
+	color: #FFFFFF;
+	line-height: 14px;
+}
+
+
+.qwe {
+  background-image: url(images/nuraliev.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
